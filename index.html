@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="/css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
 </head>
 <body>
     <!-- Header -->
@@ -29,6 +32,16 @@
                 </li>
             </ul>
         </nav>
+        <button 
+        
+        class="mobile-menu-open-btn js-open-menu" 
+                    aria-expanded="false"
+                    aria-controls="mobile-menu"
+                    type="button">
+            <svg class="mobile-menu-open-icon" width="32" height="22">
+                <use href="./images/icons.svg#icon-menu-hamburger"></use>
+            </svg>
+        </button>
             <ul class="contact-list list">
                 <li class="contact-mail">
                     <a class=" link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -37,16 +50,80 @@
                     <a class=" link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>  
+        </div>
+        <div class="mobile-menu js-menu-container " 
+        id="mobile-menu">
+            <div class="mobile-menu-container container">
+            <button class="mobile-menu-close-btn js-close-menu" 
+            type="button">
+                <svg class="menu-close-btn-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-modal-icon"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu-nav list">
+                <li class="mobile-menu-nav-item">
+                    <a class="mobile-menu-nav-link link current"  href="/">Studio</a>
+                    </li>
+                <li class="mobile-menu-nav-item">
+                    <a class="mobile-menu-nav-link link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="mobile-menu-nav-item">
+                    <a class="mobile-menu-nav-link link" href="/">Contacts</a>
+
+                </li>
+            </ul>
+            <ul class="mobile-menu-info list">
+                <li class="mobile-menu-info-item">
+                    <a class="mobile-menu-tel-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+                <li class="mobile-menu-info-item">
+                    <a class="mobile-menu-email-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="mobile-menu-soc list">
+                <li class="mobile-menu-soc-item">
+                    <a href="" class="mobile-menu--soc-link link">
+                        <svg class="mobile-menu--soc-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobile-menu-soc-item">
+                    <a href="" class="mobile-menu--soc-link link">
+                        <svg class="mobile-menu-soc-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobile-menu-soc-item">
+                    <a href="" class="mobile-menu--soc-link link">
+                        <svg class="mobile-menu--soc-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>  
+                </li>
+                <li class="mobile-menu-soc-item">
+                    <a href="" class="mobile-menu--soc-link link">
+                        <svg class="mobile-menu--soc-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
         </div>  
     </header>
     <main>
         <!-- Hero -->
-        <section class="hero ">
+    <section class="hero ">
             <div class="container">
             <h1 class="main-title">Effective Solutions for Your Business</h1>
-            <button class="order-btn btn" type="button" data-modal-open>Order Service</button>
+            <button 
+            class="order-btn btn" 
+            type="button" 
+            data-modal-open>Order Service</button>
         </div>
-        </section>
+        </section> 
         <!-- Our features -->
         <section class="features section">
             <div class="container">
@@ -97,19 +174,46 @@
         <div class="container">
         <h2 class="work-title title">What are we doing</h2>
         <ul class="work-list list">
-            <li class="work-item"><img class="work-img"  src="./images/monitor.jpg" alt="monitor" width="360" height="300" ></li>
-            <li class="work-item"><img class="work-img"  src="./images/four_smartfon.jpg" alt="four smartphons" width="360" height="300"></li>
-            <li class="work-item"><img class="work-img"  src="./images/phone_in_hand.jpg" alt="smartphone in hand" width="360" height="300"></li>
+            <li class="work-item">
+                <img class="work-img"
+                srcset="./images/desktop/img1-desktop@2x.jpg 2x"  
+                src="./images/desktop/img1-desktop.jpg" 
+                alt="monitor" 
+                width="360" 
+                height="300" >
+            </li>
+            <li class="work-item">
+                <img class="work-img"
+                srcset="./images/desktop/img2-desktop@2x.jpg 2x"  
+                src="./images/desktop/img2-desktop.jpg" 
+                alt="four smartphons" 
+                width="360" 
+                height="300">
+            </li>
+            <li class="work-item">
+                <img class="work-img"
+                srcset="./images/desktop/img3-desktop@2x.jpg 2x"  
+                src="./images/desktop/img3-desktop.jpg" 
+                alt="smartphone in hand" 
+                width="360" 
+                height="300">
+            </li>
         </ul>
     </div>
     </section>
     <!-- Our team -->
     <section class="section-team section"> 
-        <div class="container">
+        <div class="container team-container">
         <h2 class="team-title title">Our Team</h2>
         <ul class="team-list list">
             <li class="team-member">
-            <img class="team-img" src="./images/mark.jpg" alt="man with beard" width="264" height="260">
+            <img class="team-img" 
+            srcset="./images/mobile/mark-mobile@2x.jpg 2x"
+            src="./images/mobile/mark-mobile.jpg" 
+            alt="man with beard" 
+            width="264"
+            height="260"
+            >
             <div class="team-description">
             <h3 class="team-subtitle subtitle">Mark Guerrero</h3>
                 <p class="team-text text">Product Designer</p>
@@ -146,7 +250,12 @@
             </div> 
             </li>
             <li class="team-member">
-                <img class="team-img" src="./images/tom.jpg" alt="smiling man in blue shirt" width="264" height="260">
+                <img class="team-img"
+                srcset="./images/mobile/tom-mobile@2x.jpg 2x" 
+                src="./images/mobile/tom-mobile.jpg" 
+                alt="smiling man in blue shirt" 
+                width="264"
+                height="260">
                 <div class="team-description">
                 <h3 class="team-subtitle subtitle">Tom Ford</h3>
                 <p class="team-text text">Frontend Developer</p>
@@ -183,7 +292,12 @@
             </div>
             </li>
             <li class="team-member">
-                <img class="team-img" src="./images/camila.jpg" alt="young woman in pink" width="264" height="260">
+                <img class="team-img"
+                srcset="./images/mobile/camila-mobile@2x.jpg 2x" 
+                src="./images/mobile/camila-mobile.jpg" 
+                alt="young woman in pink" 
+                width="264"
+                height="260">
                 <div class="team-description">
                 <h3 class="team-subtitle subtitle">Camila Garcia</h3>
                 <p class="team-text text">Marketing</p>
@@ -220,7 +334,12 @@
             </div>  
             </li>
             <li class="team-member">
-                <img class="team-img" src="./images/daniel.jpg" alt="man in grey T-shirt" width="264" height="260">
+                <img class="team-img"
+                srcset="./images/mobile/daniel-mobile@2x.jpg 2x" 
+                src="./images/mobile/daniel-mobile.jpg" 
+                alt="man in grey T-shirt" 
+                width="264"
+                height="260">
                 <div class="team-description">
                     <h3 class="team-subtitle subtitle">Daniel Wilson</h3>
                     <p class="team-text text">UI Designer</p>
@@ -261,7 +380,7 @@
     </section> 
     <!-- ============Custemers======================= -->
     <section class="section-custemers section">
-        <div class="container">
+        <div class="container customer-container"> 
         <h2 class="custemers-title title">Customers</h2>
         <ul class="custemers-list list">
             <li class="custemers-item">
@@ -371,7 +490,7 @@
 </footer>
 <!--  -->
 <!-- ================= Modal Window ========= -->
-<div class="backdrop is-hidden" data-modal>
+<!-- <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button type="button" class="modal-close-button" data-modal-close>
 <svg class="modal-close-button-icon" width="8" height="8">
@@ -433,11 +552,11 @@
         name="user-message" 
         class="modal-form-massage"
         placeholder="Text input"></textarea>
-    </label>
+    </label> -->
 
     <!-- Check-box -->
     <!--  -->
-    <input 
+    <!-- <input 
     type="checkbox" 
     class="modal-form-check visually-hidden " 
     id="user-policy">
@@ -453,7 +572,8 @@
     <button type="submit" class="modal-form-submit btn">Send</button>
 </form>
 </div>
-</div> 
+</div>  -->
+<script src="./js/mobile-menu.js"></script>
 <script src="./js/modal.js"></script>
 </body>
 </html>
