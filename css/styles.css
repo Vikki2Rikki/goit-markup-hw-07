@@ -653,7 +653,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }  */
 
 /* =========== Modal Window =========== */
-/* .backdrop{
+.backdrop{
     position: fixed;
     z-index: 100;
     top: 0;
@@ -673,7 +673,7 @@ pointer-events: none;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 408px;
+    max-width: 408px;
     height: 584px;
     background-color: #FFFFFF;
     padding: 72px 24px 24px 24px;
@@ -707,11 +707,11 @@ fill: var(--primary-background-color);
 .modal-close-button-icon{
 
     
-} */
+}
 
 /* ========= modal-form ======================= */
 
-/* .modal-text{
+.modal-text{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -790,10 +790,10 @@ margin-bottom: 4px;
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: rgba(117, 117, 117, 0.5);
-} */
+} 
 /* ============== Check-box ============ */
 
-/* .modal-form-check-desc {
+.modal-form-check-desc {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -851,4 +851,4 @@ fill: transparent;
 .modal-form-submit:focus{
 background-color: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-} */
+} 
