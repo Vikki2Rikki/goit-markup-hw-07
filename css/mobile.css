@@ -22,7 +22,6 @@ margin-right: auto;
         position: fixed;
         width: 100%;
         height: 100%;
-        height: 796px;
         top: 0;
         left: 0;
         z-index: 100;
@@ -41,6 +40,9 @@ margin-right: auto;
     
     }
     .mobile-menu-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         height: 100%;
         position: relative;
         padding-top: 80px;
@@ -71,9 +73,7 @@ margin-right: auto;
     border-radius: 50%;  
     }
     .mobile-menu-content-wrap{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+       
     }
     .mobile-menu-nav{
         display: flex;
