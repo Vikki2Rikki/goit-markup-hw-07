@@ -35,7 +35,7 @@ padding-right: 15px;
     background-image:var(--hero-gra), url(../images/desktop/hero-bg-desktop.jpg);
     
 } 
-@media screen and (min-device-pixel-ratio: 2), and (min-width: 1200px)
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
 screen and (min-resolution: 192dpi) and (min-width: 1200px),
 screen and (min-resolution: 2dppx) and (min-width: 1200px){
 .hero{
@@ -87,26 +87,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px){
 .work-item{
     flex-basis: calc((100% - 2 * 24px) / 3);
 } 
-
-/* ========Our team ====== */
-/* .section-team{
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    gap: 24px;
-}
-.team-container{
-  width: 100%;  
-}
-.team-list{
-    flex-wrap: nowrap;
-}
-
-.team-member{
-    flex-basis:calc((100% - 3 * 24px) / 4) ; */
-
 /* ======== Customer ======= */
 .section{
     padding-top: 120px;
@@ -155,23 +135,19 @@ align-items: flex-start;
 /* ====== Footer ===== */
 
 /* ======== PORTFOLIO ======= */
-.p
+
 .portfolio.section{
     padding-top: 96px;
     padding-bottom: 120px;
 }
 .filter{
     display: flex;
-    
     justify-content: center;
-    gap: var(--main-gap);
+    gap: 24px;
     margin-bottom: 72px;
 
 }
-.filter-item{
-    width: 100%;
-    height: 48px;
-}
+
 .example-list{
 row-gap: 40px;
 

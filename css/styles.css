@@ -476,10 +476,10 @@ fill: var(--primary-background-color);
     padding-bottom: 48px;
 }
 .filter-wrap{
-    max-width: 264px;
-}
-.filter{
     width: 100%;
+}
+
+.filter{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -565,9 +565,7 @@ fill: var(--primary-background-color);
         
         }
 
-/* .portfolio.section{
-padding-top: 96px;
-}
+/*
 .filter{
     display: flex;
     justify-content: center;
@@ -575,11 +573,7 @@ padding-top: 96px;
     margin-bottom: 72px;
 
 }
-.filter-btn{
-padding-top: 12px;
-padding-bottom: 12px;
-padding-left: 24px;
-padding-right: 24px;  
+.filter-btn{  
 border: none;
 color: var(--brand-color);
 background-color: var(--secondary-text-color);

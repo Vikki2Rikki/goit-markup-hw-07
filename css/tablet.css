@@ -167,14 +167,13 @@ padding-right: 92px; */
     padding-bottom: 96px;
 }
 .filter-wrap{
-    max-width: 586px;
+    max-width: 100%;
 
 }
 .filter{
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 64px;
+    margin-bottom: 64px;  
 }
 
 .filter-btn{

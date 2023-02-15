@@ -72,9 +72,6 @@ margin-right: auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;  
     }
-    .mobile-menu-content-wrap{
-       
-    }
     .mobile-menu-nav{
         display: flex;
         flex-direction: column;
@@ -92,7 +89,6 @@ margin-right: auto;
     color: var(--accent-color);
 }
 .mobile-menu-info-soc-wrap{
-   
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -101,7 +97,7 @@ margin-right: auto;
 .mobile-menu-info{
     margin-bottom: 48px;
 }
- .mobile-menu-info-item.number{
+.mobile-menu-info-item.number{
     font-weight: 600;
 font-size: 28px;
 line-height: 1.11;
