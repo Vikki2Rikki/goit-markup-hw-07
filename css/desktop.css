@@ -19,6 +19,10 @@ padding-right: 15px;
 .menu{
     margin-left: 76px;
 }
+.page-nav{
+    display: flex;
+    align-items: center;
+} 
 .contact-list{
     flex-direction: row;
     gap: 40px;

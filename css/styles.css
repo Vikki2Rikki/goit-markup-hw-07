@@ -104,13 +104,13 @@ margin-right: auto;
 .page-header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid var(--secondary-text-color);
 }
 .header-container{
     display: flex;
     align-items: center;
     justify-content: space-between; 
 }
-
 
 .header-logo{
 color: var(--primary-title-color);
