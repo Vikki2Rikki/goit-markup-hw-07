@@ -116,73 +116,6 @@ margin-right: auto;
 color: var(--primary-title-color);
 }
 
-
-/* .page-header{
-    border-bottom: 1px solid var(--secondary-text-color);
-}
-.header-container{
-    display: flex;
-    align-items: center;
-    
-}
-.page-nav{
-    display: flex;
-    align-items: center;
-} 
-.contact-list{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-}
-.menu{
-    display: flex;
-    align-items: center;
-}
-
-.menu-item{
-    
-}
-
-.menu-link{
-    position: relative;
-    display: block;
-    padding-top: 26px;
-    padding-bottom: 24px;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--primary-title-color);
-transition: color var(--tra);
-
-}
-.menu-link.current::after{
-position: absolute;
-left: 0;
-bottom: 0;
-display: block;    
-content: '';
-width: 100%;
-height: 4px;
-background-color: var(--accent-color);
-border-radius: 2px;
-} 
-.current{
-    color: var(--accent-color);
-}
-
-
-.menu-link:hover,
-.menu-link:focus{
-    color: var(--accent-color);
-}
-.menu-item:not(:last-child){
-margin-right: 40px;   
-}
-c
-.contact-tel{
-    margin-left: 40px;
-} */
 /* =================Hero=============== */
 
 .hero{
@@ -355,56 +288,6 @@ margin-bottom: 8px;
     .team-soc-link:focus{
     background-color: var(--accent-color);
     }
-
-        /* transition-property:background-color ;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-        transition:background-color var(--tra) ;
-    }
-    
-    .team-soc-icon{
-        fill: var(--light-text-color);
-    }
-    .team-soc-link:hover,
-    .team-soc-link:focus{
-    background-color: var(--accent-color);
-    }
-    
-
-
-/* 
-
-.team-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--main-gap);
-}
-.team-member{
-    flex-basis:calc((100% - 3 * 24px) / 4) ;
-    background-color: var(--primary-background-color);
-}
-.team-description{
-padding: 32px 16px 32px 16px;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px; 
-} 
-
-.team-subtitle{
-    margin-bottom: 8px;
-    text-align: center;
-    color: var(--primary-title-color);
-}
-.team-text{
-    text-align: center;
-    margin-bottom: 8px;
-}
-.team-soc-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: var(--main-gap);
-
-}
 
 
 /* ===========Custemers========= */
