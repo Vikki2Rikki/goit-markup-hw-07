@@ -16,13 +16,14 @@ padding-right: 15px;
     width: 100%;
     height: 76px;
 }
-.menu{
-    margin-left: 76px;
-}
 .page-nav{
     display: flex;
     align-items: center;
 } 
+.menu{
+    margin-left: 76px;
+}
+
 .contact-list{
     flex-direction: row;
     gap: 40px;

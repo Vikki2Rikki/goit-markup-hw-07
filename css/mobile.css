@@ -1,8 +1,6 @@
 @media screen and (min-width: 480px) {
 .container{
 width: 428px;
-margin-left: auto;
-margin-right: auto;
 } 
  /*===== hero======  */
 .main-title{
@@ -12,8 +10,6 @@ margin-right: auto;
 .team-container{
     max-width: 100%;
 }
-/* ========= Footer ==== */
-
 }
  /* ==== Mobile-menu ==== */
 @media screen and (max-width: 767px) {
@@ -31,7 +27,7 @@ margin-right: auto;
         pointer-events: none;
         transition:opacity var(--tra),visibility var(--tra) ;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-    
+    overflow-y: auto;
     }
     .mobile-menu.is-open{
         opacity: 1;
@@ -139,7 +135,7 @@ margin-bottom: 40px;
     }   
 }
 
-/* ===== Our team =========== */
+
 
 
 
