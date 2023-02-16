@@ -14,6 +14,13 @@ width: 428px;
  /* ==== Mobile-menu ==== */
 @media screen and (max-width: 767px) {
     
+    .menu{
+        display: none;
+    } 
+    .contact-list{
+        display: none;
+    }   
+    
     .mobile-menu{
         position: fixed;
         width: 100%;
@@ -22,19 +29,24 @@ width: 428px;
         left: 0;
         z-index: 100;
         background-color: var(--primary-background-color);
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
+        
         transition:opacity var(--tra),visibility var(--tra) ;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
     overflow-y: auto;
     }
-    .mobile-menu.is-open{
+
+    .mobile-menu.is-hidden{
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    /* .mobile-menu.is-open{
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
+
     
-    }
+    } */
     .mobile-menu-container{
         display: flex;
         flex-direction: column;
@@ -127,12 +139,7 @@ margin-bottom: 40px;
     fill: var(--light-text-color);
 }
     /* ======= Mobile menu ======== */
-    .menu{
-        display: none;
-    } 
-    .contact-list{
-        display: none;
-    }   
+   
 }
 
 
