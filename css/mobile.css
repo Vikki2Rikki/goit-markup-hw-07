@@ -20,7 +20,7 @@ width: 428px;
     .contact-list{
         display: none;
     }   
-    
+
     .mobile-menu{
         position: fixed;
         width: 100%;
@@ -139,7 +139,7 @@ margin-bottom: 40px;
     fill: var(--light-text-color);
 }
     /* ======= Mobile menu ======== */
-   
+
 }
 
 
