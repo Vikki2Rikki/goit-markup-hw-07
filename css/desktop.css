@@ -54,8 +54,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px){
     padding-bottom: 120px;
 }
     .features-subtitle{
-        margin-top: 8px;
-        text-align: left;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+margin-top: 8px;
+text-align: left;
     }
 
 .features-list > .item{
@@ -72,7 +76,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px){
 }
 
 /* =========What are we doing ========= */
-.section-work{
+.section-work.section{
     display: block;
     padding-top: 0;
 }
