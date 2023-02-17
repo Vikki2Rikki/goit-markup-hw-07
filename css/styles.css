@@ -48,7 +48,6 @@ body{
 }
 /* ===========components=========== */
 .section{
-    outline: 1px solid tomato;
     padding-top: 96px;
     padding-bottom: 96px;
 
