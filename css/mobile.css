@@ -99,11 +99,14 @@ width: 428px;
 .mobile-menu-info-soc-wrap{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 48px;
     
 }
 .mobile-menu-info{
-    margin-bottom: 48px;
+    
+}
+.mobile-menu-info-item.number{
+    margin-bottom: 40px;
 }
 .mobile-menu-tel-link{
     font-weight: 600;
@@ -111,7 +114,6 @@ font-size: 28px;
 line-height: 1.11;
 text-transform: capitalize;
 color: var(--brand-color);
-margin-bottom: 40px;
 
 }
 .mobile-menu-email-link{
